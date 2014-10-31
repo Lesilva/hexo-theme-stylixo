@@ -1,27 +1,26 @@
-# Pacman
+# stylixo
 
-Pacman is a flat and responsive design theme for [Hexo](http://hexo.io).
+stylixo is a stylish and fresh looking theme for [Hexo](http://hexo.io) based on [Pacman](https://github.com/A-limon/pacman).
 
-[Demo](http://A-limon.github.io/pacman) || [Alimon's Blog](http://yangjian.me)
+[Demo](http://weiwang.me/blog) || [Lesilva's Blog](http://weiwang.me)
 
-中文说明请访问[这里](http://A-limon.github.io/pacman/hello/introducing-pacman-theme/)
 ##Installation
 ###Install
 ```
-$ git clone https://github.com/A-limon/pacman.git themes/pacman
+$ git clone https://github.com/Lesilva/hexo-theme-stylixo.git themes/stylixo
 ```
-**Pacman requires Hexo 2.4.5 and above.** 
+**stylixo requires Hexo 2.4.5 and above.** 
 ###Enable
-Modify `theme` setting in blog folder` _config.yml` to `pacman`.
+Modify `theme` setting in blog folder` _config.yml` to `stylixo`.
 ###Update
 ```
-cd themes/pacman
+cd themes/stylixo
 git pull
 ```
 **please backup your `_config.yml` file before update.** 
 ##Configuration
 
-Modify settings in  `/themes/pacman/_config.yml`.
+Modify settings in  `/themes/stylixo/_config.yml`.
 
 ```
 ##### Menu
@@ -49,9 +48,9 @@ rss: ## RSS address.
 #### Image
 imglogo:
   enable: true             ## display image logo true/false.
-  src: img/logo.svg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
-favicon: img/favicon.ico   ## size:16px*16px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
-apple_icon: img/pacman.jpg ## size:64px*64px,please put image into the theme folder `/pacman/source/img`.
+  src: img/logo.svg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/stylixo/source/img`.
+favicon: img/favicon.ico   ## size:16px*16px,`.ico` is recommended,please put image into the theme folder `/stylixo/source/img`.     
+apple_icon: img/pacman.jpg ## size:64px*64px,please put image into the theme folder `/stylixo/source/img`.
 
 #### Author Avatar Picture
 author_img_enable: true ## display author avatar picture
@@ -65,7 +64,7 @@ author_img: img/author.jpg ## size:220px*220px.
 
 #### Font
 ShowCustomFont: true  
-## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/pacman/source/css`.
+## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/stylixo/source/css`.
 
 #### Toc
 toc:
@@ -78,7 +77,7 @@ toc:
 fancybox: false 
 ## if you use gallery post or want use fancybox please set the value to true.
 ## if you want use fancybox in ANY post please copy the file `fancybox.js`.
-## in theme folder `/pacman/scripts` to your hexo blog folder `../scritps`.
+## in theme folder `/stylixo/scripts` to your hexo blog folder `../scritps`.
 
 #### Author information
 author:
@@ -116,9 +115,3 @@ google_cse:
   cx:  ## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID.
 ## https://www.google.com/cse/
 ```
-
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/A-limon/pacman/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
