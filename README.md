@@ -2,7 +2,7 @@
 
 stylixo is a stylish and fresh looking theme for [Hexo](http://hexo.io) based on [Pacman](https://github.com/A-limon/pacman).
 
-[Demo](http://weiwang.me/blog) || [Lesilva's Blog](http://weiwang.me)
+[Demo](http://weiwang.me/demo) || [My Blog](http://weiwang.me)
 
 ##Installation
 ###Install
